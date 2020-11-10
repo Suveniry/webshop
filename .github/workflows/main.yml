@@ -22,7 +22,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build and deploy the Docker image
-      - env:
+        env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
           APP_NAME: ${{ 'suveniry-channel' }}
         run: |
