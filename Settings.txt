@@ -1,0 +1,2 @@
+DataProvider: mongodb
+DataConnectionString: mongodb+srv://webshop:vDCniTvCQpof2RFL@webshopcluster.4rk7w.mongodb.net/webShopDb?retryWrites=true&w=majority
